@@ -1,0 +1,23 @@
+body {
+  min-height: 2000px;
+  margin-top: 30px;
+}
+
+
+
+.page-header figure img{
+	width: 100%;
+}
+
+.jumbotron figure img{
+	width: 15%;
+}
+
+.jumbotron{
+	text-align: center;
+}
+
+#textabout{
+	padding-top: 1%;
+	font-size: 1.5em;
+}
