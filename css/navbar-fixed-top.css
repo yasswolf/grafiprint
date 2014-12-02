@@ -1,7 +1,44 @@
 body {
   min-height: 2000px;
   margin-top: 30px;
+  
 }
+
+.navbar {
+	background: #283147;
+	min-height: 20px;	
+	border-radius: 0px; 
+	border: none; 
+	margin-bottom: 0px; 
+	-webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	-moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a {
+	padding-bottom: 20px;
+	color: white;
+	text-transform: uppercase;
+	-moz-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	-webkit-transition: background-color .5s ease;
+	transition: background-color .5s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .menu ul li a.current {
+	color: white;
+	background-color: #394665;
+}
+
+.navbar>.container .navbar-brand { margin-left: 0; }
+.navbar-collapse .navbar-nav.navbar-right:last-child { margin-right: 0; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #394665; }
+
 
 
 
@@ -19,5 +56,42 @@ body {
 
 #textabout{
 	padding-top: 1%;
-	font-size: 1.5em;
+	
 }
+
+
+#services div div{
+	overflow: hidden;
+
+}
+
+.btn-group .icon-button:last-of-type { margin-bottom: 0; }
+.btn-group .icon-button {
+	
+	
+	background-color: #283147;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	margin-right: 5px;
+	width: 150px;
+
+}
+
+.btn-group  .icon-button:hover, .btn-group  .icon-button.active
+{	
+	background-color: #99A2BA; 
+
+}
+
+
+.arrow-box { overflow:hidden; position: relative; color: white; background-color: #283147; border-radius: 4px; margin-left: 30px; margin-top:10px ; height: 100%;}
+
+

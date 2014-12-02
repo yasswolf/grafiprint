@@ -9,16 +9,15 @@
 
     <title>Grafi Print</title>
 
-    <!-- Bootstrap core CSS -->
    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-    <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="css/navbar-fixed-top.css">
-   
+  <!--  <link rel="stylesheet" type="text/css" href="css/templatemo_style.css"> -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">  
+ 
   </head>
 
   <body>
-
+  </section id="control">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -34,14 +33,14 @@
           <ul class="nav navbar-nav">
             <li><a href="#home">Inicio</a></li>
             <li><a href="#about">Nosotros</a></li>
-            <li><a href="#contact">Servicios</a></li>
+            <li><a href="#services">Servicios</a></li>
             <li><a href="#contact">Contáctenos</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-	<div class="container">
+  </section>
+  <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="page-header">
@@ -50,27 +49,70 @@
       	</figure>
        
       </div>
+  </div> <!-- /container -->
 
-    </div> <!-- /container -->
+  <div class="container">
+    <div class="jumbotron">
+      <figure>
+			 <img src="images/about.png">
+      </figure>
+      <p id="textabout">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ea temporibus animi non, quisquam alias perferendis rerum ipsum praesentium. Eaque fuga consectetur, nulla, quis quod sequi repellat corrupti et suscipit!</p>
+    </div>
+  </div> <!-- /container -->
 
+ <section id="services">
     <div class="container">
-
-      <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-       <figure>
-			<img src="images/about.png">
-      	</figure>
-      	<p id="textabout">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ea temporibus animi non, quisquam alias perferendis rerum ipsum praesentium. Eaque fuga consectetur, nulla, quis quod sequi repellat corrupti et suscipit!</p>
+           
+            <div class="btn-group">
+              <ul class="nav nav-tabs">
+                <li class="icon-button active" data-target="#pencil"><em style="vertical-align: middle"></em><p>Servicio 1</p></li>
+                <li class="icon-button" data-target="#cog"><p>Servicio 2</p></li>            
+                <li class="icon-button" data-target="#signal"><p>Servicio 3</p></li>
+                <li class="icon-button" data-target="#other"><p>Servicio 4</p></li>
+              </ul>
+            </div>
+       
+        
+          <div id="services_content">
+            
+            <div class="arrow-box center-row">
+              <div class="tab-content center">              
+                <div class="tab-pane fade in active" id="pencil">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique lacus arcu, at elementum odio iaculis sed. Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a. </p>
+                    <p>Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a.</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique lacus arcu, at elementum odio iaculis sed. Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a. </p>
+                    <p>Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a.</p>
+                </div>
+                <div class="tab-pane fade" id="cog">
+                  <h3>Lorem ipsum</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique lacus arcu, at elementum odio iaculis sed. Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a. </p>
+                    <p>Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a.</p>
+                </div>
+                <div class="tab-pane fade" id="signal">
+                  <h3>Lorem ipsum</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique lacus arcu, at elementum odio iaculis sed. Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a. </p>
+                    <p>Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a.</p>
+                </div>
+                <div class="tab-pane fade" id="other">
+                  <h3>Lorem ipsum</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique lacus arcu, at elementum odio iaculis sed. Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a. </p>
+                    <p>Cras molestie condimentum justo, vitae ullamcorper nulla dignissim a.</p>
+                </div>
+              </div>                                     
+            </div>
+         
+       </div>
       </div>
-
-    </div> <!-- /container -->
-
+    </div>
+  </section>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/templatemo_custom.js"></script>
   
 
 </body>
