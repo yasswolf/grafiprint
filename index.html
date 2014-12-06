@@ -11,7 +11,7 @@
 
    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/navbar-fixed-top.css">
-  <!--  <link rel="stylesheet" type="text/css" href="css/templatemo_style.css"> -->
+   <!--<link rel="stylesheet" type="text/css" href="css/templatemo_style.css"> -->
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">  
  
   </head>
@@ -40,17 +40,20 @@
       </div>
     </nav>
   </section>
+  <section id="home">
   <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="page-header">
       	<figure>
-			<img src="images/comercialslide.jpg">
+			<img id="imagepanel" src="images/comercialslide.jpg">
       	</figure>
        
       </div>
   </div> <!-- /container -->
+</section>
 
+<section id="about">
   <div class="container">
     <div class="jumbotron">
       <figure>
@@ -59,7 +62,7 @@
       <p id="textabout">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ea temporibus animi non, quisquam alias perferendis rerum ipsum praesentium. Eaque fuga consectetur, nulla, quis quod sequi repellat corrupti et suscipit!</p>
     </div>
   </div> <!-- /container -->
-
+</section>
  <section id="services">
     <div class="container">
       <div class="jumbotron">
@@ -108,12 +111,63 @@
     </div>
   </section>
 
+  <section id="contact">
+     <div class="container">
+      <div class="jumbotron" id="jumbocontact">
+        <h2>Contáctenos</h2>
+     
+       <div class="col col-md-6 col-sm-12">
+          <form role="form" action="#" method="post" class="center">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="fullname" type="text" class="form-control" id="input_name" placeholder="Nombre...">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="email" type="email" class="form-control" id="input_email" placeholder="Email...">
+                    </div>                
+                  </div> 
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea name="message" rows="3" class="form-control" id="input_message" placeholder="Mensaje..."></textarea><br>
+                      <button type="submit" class="btn btn-primary pull-right">Enviar</button>
+
+                    </div>
+
+                  </div>
+
+                 </div> <!-- row -->
+          </form>
+              <p class="contactfont">Teléfonos: 505-2266-7265 / 2250-1702 </p>
+              <p class="contactfont">Fax: 505-2250-1543</p> 
+         </div>
+        <div class="col col-md-6 col-sm-12">
+            
+            <div id="google_map"></div>
+            <p class="contactfont">Monseñor Lezcano, de la estatua 1c. Norte, 4y1/2 c. al Oeste - Managua, Nicaragua.</p>
+        </div>
+  </div>   
+     </div>
+  </section>
+
+ <footer>
+    <div class="container">        
+       <div class="jumbotron">
+            Copyright © 2014 <a href="#">DreamDevelopment</a> 
+          </div>
+    </div>
+  </footer>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/templatemo_custom.js"></script>
-  
+ 
 
 </body>
 </html>
